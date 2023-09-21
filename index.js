@@ -24,6 +24,16 @@
 
 // Arrow function
 
+// function |> call ,apply and bind  <| function ----------|
+//                                                         |
+// bind   ----                                             |
+//                                                         |
+// call   ----                                             |
+//                                                         |
+// apply  ----                                             |
+//                                                         |
+// --------------------------------------------------------|
+
 // switch statement
 
 // while loop statement
@@ -269,6 +279,29 @@
 
 // const sum = () => `the Arrow functionis anser of ${(a = 2)+(b =3)}`;
 // console.log(sum());
+
+
+//                                              -----------------------------------------------
+// -------------------------------============   function |> call ,apply and bind  <| function  ==================---------------------------------------->
+
+
+// const shagggggi ={
+//     name:"shan umar",
+//     className:"10th",
+// }
+
+// function info(ratting, quality) {
+//     console.log(`My  name is ${this.name} . ratting = ${ratting} and quality = ${quality}`);
+// }
+
+
+//  const fun = info.bind(shagggggi)
+// fun()
+
+// info.call(shagggggi, 5, "best")
+// info.apply(shagggggi,[ 5, "best"])
+// let arr = [ 5, "best"]
+// info.apply(shagggggi,arr)
 
 
 
