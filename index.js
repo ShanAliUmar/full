@@ -649,7 +649,7 @@ fun()
 
 // console.log(Math.PI);
 
-
+    
 // <-----------------------------------------==============          round         ===============------------------------------->
 
 
@@ -875,13 +875,6 @@ fun()
 // info.apply(shagggggi,[ 5, "best"])
 // let arr = [ 5, "best"]
 // info.apply(shagggggi,arr)
-
-
-
-
-
-
- 
 
 
 
