@@ -285,18 +285,18 @@
 // -------------------------------============   function |> call ,apply and bind  <| function  ==================---------------------------------------->
 
 
-const shagggggi ={
-    name:"shan umar",
-    className:"10th",
-}
+// const shagggggi ={
+//     name:"shan umar",
+//     className:"10th",
+// }
 
-function info(ratting, quality) {
-    console.log(`My  name is ${this.name} . ratting = ${ratting} and quality = ${quality}`);
-}
+// function info(ratting, quality) {
+//     console.log(`My  name is ${this.name} . ratting = ${ratting} and quality = ${quality}`);
+// }
 
 
- const fun = info.bind(shagggggi,32)
-fun()
+//  const fun = info.bind(shagggggi,32)
+// fun()
 
 // info.call(shagggggi, 5, "best")
 // info.apply(shagggggi,[ 5, "best"])
